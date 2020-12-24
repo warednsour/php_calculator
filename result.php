@@ -20,16 +20,18 @@ $operation = $_POST['operation'];
         $result = $number1 - $number2;
       }
       if($operation == $delenia){
-        $result = $number1 / $number2
+        $result = $number1 / $number2;
       }
       if($operation == $omnoshenia){
-        $result = $number1 * $number2
+        $result = $number1 * $number2;
       }
 
 
 
     }
             echo '<p> the result is' . $result . '</p>'  ;
+  } else {
+      echo "something went wrong!";
   }
 
  ?>
