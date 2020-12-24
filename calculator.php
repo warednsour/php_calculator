@@ -15,7 +15,7 @@
         <option value="omnoshenia">умножение</option>
         <option value="delenia">деление</option>
       </select>
-      <input type="submit" name="submit" value="">
+      <input type="submit" name="submit" value="submit">
     </form>
   </body>
 </html>
